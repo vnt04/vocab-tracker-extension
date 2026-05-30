@@ -1,0 +1,18 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Vite cache
+.vite
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env / editor files
+*.local
+.DS_Store

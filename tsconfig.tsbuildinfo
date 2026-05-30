@@ -1,0 +1,1 @@
+{"root":["./src/vite-env.d.ts","./src/api/vocabapi.ts","./src/background/index.ts","./src/content/savepopup.tsx","./src/content/index.tsx","./src/content/mountpopup.ts","./src/content/selection.ts","./src/storage/types.ts","./src/storage/vocabstore.ts"],"version":"5.9.3"}
