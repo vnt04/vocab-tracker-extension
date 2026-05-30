@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Vocabulary Tracker",
+  "description": "Save English words and phrases you forget while reading the web.",
+  "version": "0.1.0",
+  "host_permissions": [
+    "https://assistant.nghiepdev.info/*"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.tsx-C1VTjLKG.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "assets/index.tsx-C1VTjLKG.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}
